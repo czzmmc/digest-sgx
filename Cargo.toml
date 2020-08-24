@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 generic-array = "0.14"
 blobby = { git = "https://github.com/mesalock-linux/rustcrypto-utils-sgx", optional = true }
-sgx_tstd = { rev = "v1.1.2", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
+sgx_tstd = { rev = "v1.1.1", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
 [features]
 alloc = []
